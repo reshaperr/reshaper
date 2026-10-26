@@ -1,0 +1,50 @@
+div.filler {
+    color: white;
+    display:grid;
+    place-items:center;
+}
+body {
+    background-color: black;
+    color: lime;
+    display:grid;
+    place-items:center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+div.machine {
+    font-family:'Courier New', Courier, monospace;
+    color: lime;
+}
+div.red {
+    color: red;
+    font-family:'Courier New', Courier, monospace;
+}
+div.yellow {
+    color: yellow;
+}
+a:link {
+    color:red;
+}
+a:visited {
+    color:red;
+}
+a:hover {
+    color:lime;
+}
+a:active {
+    color:red;
+}
+div.header {
+    background-color: rgb(48, 48, 48);
+}
+button {
+    background-color: lime;
+    
+    border-color: white;
+}
+table, tr, th, td, caption {
+    border:1px solid white;
+    font-family:'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 1.5rem;
+}
